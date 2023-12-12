@@ -6,7 +6,7 @@ services:
        context: .
 
      ports:
-      - "1003:80"
+      - "4455:80"
 
      volumes:
       - nginxvol:/var/opt/nginx
